@@ -7,6 +7,7 @@ class DishDetail extends Component {
     this.state = {
       selectedDishDetail: this.props.dish,
     };
+    console.log("detail: ", this.props.dish);
   }
 
   renderDish(dish) {
@@ -62,9 +63,11 @@ class DishDetail extends Component {
     }
 
     return (
-      <div className="row">
-        {this.renderDish(dish)}
-        {this.renderComments(dish.comments)}
+      <div className="container">
+        <div className="row">
+          {this.renderDish(dish)}
+          {this.renderComments(dish.comments)}
+        </div>
       </div>
     );
   }
