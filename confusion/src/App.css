@@ -31,3 +31,18 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
+
+/* Modal{
+    z-index: 999;
+} */
+
+.highlight{
+    /* z-index: 999999; */
+    /* width: 150px;
+    height: 150px;
+    border: 1px red solid; */
+}
+
+.modal{
+    opacity: 1;
+}
